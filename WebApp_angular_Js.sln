@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_angular_Js", "WebApp_angular_Js\WebApp_angular_Js.csproj", "{975EA3C8-A35B-411F-BC84-F5FC0AB7BB96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api.Test", "Web.Api.Test\Web.Api.Test.csproj", "{40F09364-E4D9-4EB8-944B-E316D7E936EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{975EA3C8-A35B-411F-BC84-F5FC0AB7BB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975EA3C8-A35B-411F-BC84-F5FC0AB7BB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975EA3C8-A35B-411F-BC84-F5FC0AB7BB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975EA3C8-A35B-411F-BC84-F5FC0AB7BB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F09364-E4D9-4EB8-944B-E316D7E936EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F09364-E4D9-4EB8-944B-E316D7E936EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F09364-E4D9-4EB8-944B-E316D7E936EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F09364-E4D9-4EB8-944B-E316D7E936EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55B9AFE8-965F-4411-8D86-0D0B960A2379}
+	EndGlobalSection
+EndGlobal
