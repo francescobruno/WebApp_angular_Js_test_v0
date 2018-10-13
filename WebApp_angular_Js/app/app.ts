@@ -13,7 +13,7 @@ class Config {
                 controller: "TechVidsListCtrl"
             })
             //.when("/add", {
-            //    templateUrl: "App/Templates/AddVideo.html",
+            //    templateUrl: "App/Templates/AddVideo.html",kkkk
             //    controller: "AddTechVideoCtrl"
             //})
             //.when("/edit/:id", {
