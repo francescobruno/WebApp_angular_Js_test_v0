@@ -1,6 +1,5 @@
 var demoController = /** @class */ (function () {
     function demoController($scope) {
-        //this.dataSvc = techVidsDataSvc;
         var _this = this;
         this.$scope = $scope;
         //static $inject = ['$scope'];

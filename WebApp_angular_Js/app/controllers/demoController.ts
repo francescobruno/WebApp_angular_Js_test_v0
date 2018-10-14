@@ -8,7 +8,6 @@ class demoController implements ng.IController {
     constructor(private $scope: ng.IScope) {
          
 
-        //this.dataSvc = techVidsDataSvc;
 
         this.init();
     }
