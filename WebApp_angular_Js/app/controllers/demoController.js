@@ -5,7 +5,7 @@ var demoController = /** @class */ (function () {
         //static $inject = ['$scope'];
         this.message = null;
         this.init = function () {
-            _this.message = 'Hello FraCu !';
+            _this.message = 'Hello !';
         };
         this.init();
     }
