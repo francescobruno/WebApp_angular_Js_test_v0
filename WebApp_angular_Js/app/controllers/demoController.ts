@@ -14,7 +14,7 @@ class demoController implements ng.IController {
 
     init = () => {
 
-        this.message = 'Hello !'
+        this.message = 'Hello FraCu !'
     }
 
     $onInit() { }
