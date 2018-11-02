@@ -70,6 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\views\templates\custom-carousel.html" />
     <Content Include="app\views\templates\home.html" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -77,10 +78,34 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\style\layout.css" />
     <Content Include="Index.html" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-aria.js" />
+    <Content Include="Scripts\angular-aria.min.js" />
+    <Content Include="Scripts\angular-cookies.js" />
+    <Content Include="Scripts\angular-cookies.min.js" />
+    <Content Include="Scripts\angular-csp.css" />
+    <Content Include="Scripts\angular-loader.js" />
+    <Content Include="Scripts\angular-loader.min.js" />
+    <Content Include="Scripts\angular-message-format.js" />
+    <Content Include="Scripts\angular-message-format.min.js" />
+    <Content Include="Scripts\angular-messages.js" />
+    <Content Include="Scripts\angular-messages.min.js" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-parse-ext.js" />
+    <Content Include="Scripts\angular-parse-ext.min.js" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular-touch.js" />
+    <Content Include="Scripts\angular-touch.min.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -105,6 +130,19 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Scripts\errors.json" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Scripts\angular-touch.min.js.map" />
+    <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
+    <Content Include="Scripts\angular-parse-ext.min.js.map" />
+    <Content Include="Scripts\angular-messages.min.js.map" />
+    <Content Include="Scripts\angular-message-format.min.js.map" />
+    <Content Include="Scripts\angular-loader.min.js.map" />
+    <Content Include="Scripts\angular-cookies.min.js.map" />
+    <Content Include="Scripts\angular-aria.min.js.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -114,6 +152,8 @@
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\sitemap.xml" />
+    <Content Include="Scripts\ui-bootstrap-tpls-2.4.0.min.js" />
     <Content Include="Scripts\umd\popper-utils.js" />
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
@@ -125,8 +165,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
     <Content Include="Scripts\umd\popper.min.js.map" />
@@ -138,6 +176,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\version.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -152,6 +191,7 @@
     <TypeScriptCompile Include="app\app.ts" />
     <TypeScriptCompile Include="app\controllers\demoController.ts" />
     <TypeScriptCompile Include="app\controllers\homeController.ts" />
+    <TypeScriptCompile Include="app\directives\custom-frabru-carousel.ts" />
     <TypeScriptCompile Include="Scripts\index.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-component-router.d.ts" />

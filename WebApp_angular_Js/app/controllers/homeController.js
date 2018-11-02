@@ -4,8 +4,19 @@ var HomeController = /** @class */ (function () {
         this.$scope = $scope;
         //static $inject = ['$scope'];
         this.message = null;
+        this.items = null;
         this.init = function () {
             _this.message = " i'm HomeController!";
+            _this.items = new Array();
+            _this.items.push('first');
+            _this.items.push('second');
+            _this.items.push('third');
+        };
+        this.addItem = function () {
+            _this.items.push('added by ctrl');
+        };
+        this.clear = function () {
+            _this.items = null;
         };
         this.init();
     }

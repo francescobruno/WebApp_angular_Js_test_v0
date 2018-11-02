@@ -1,0 +1,14 @@
+﻿.box {
+    height: 100px;
+    width: 150px;
+    border: 2px solid transparent;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 5px;
+    background-color: #376a94;
+}
+
+.text_box {
+    color: white;
+    text-align: center;
+}
